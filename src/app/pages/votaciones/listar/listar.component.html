@@ -1,0 +1,25 @@
+<div class="fondo">
+    <div class="col-lg-12">
+        <nb-card>
+            <nb-card-header>
+                ADMINISTRACIÓN RESULTADOS
+                <br>
+                Candidatos con mayor numero de votos
+            </nb-card-header>
+            <table class="table">
+                <tr>
+                    <th *ngFor="let columaActual of
+        nombresColumnas">{{columaActual}}</th>
+                </tr>
+                <ng-container *ngFor="let votacionActual of votaciones">
+                    <tr>
+                        <td>{{votacionActual.nombre_candidato}}</td>
+                        <td>{{votacionActual.apellido_candidato}}</td>
+                        <td>{{votacionActual.nombre_partido}}</td>
+                        <td>{{votacionActual.total_votos}}</td>
+                    </tr>
+                </ng-container>
+            </table>
+        </nb-card>
+    </div>
+</div>

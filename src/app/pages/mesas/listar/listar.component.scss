@@ -1,0 +1,26 @@
+.fondo {
+    background-image: url(https://static.wixstatic.com/media/77ac37_aa85b89587dc4f4dbeee136cebaba77b~mv2.jpg/v1/fill/w_1500,h_1244,al_c,q_85/6a2bfc_9f34e81105914900b3280a799c70ec7f~mv2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  .col-lg-12 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px ;
+    width: 50%;
+    height: 100%;
+  }
+  .table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 500px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-color: #09C transparent;
+    scrollbar-width: thin;
+  }
+  
+  
